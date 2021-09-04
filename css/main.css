@@ -2,6 +2,8 @@
   --background: #fafafa;
   --gray1: #333333;
   --gray2: #4f4f4f;
+  --gray4: #bdbdbd;
+
   --black: #000000;
   --orange: #f2994a;
   --white: #ffffff;
@@ -50,9 +52,43 @@ img {
   height: 8px;
   left: 11px;
   position: absolute;
+  top: 78px;
   width: 13px;
 }
 
 .header-content img {
   margin: 24px 0 24px 11px;
+}
+
+/* Aside */
+.aside-content span {
+  display: block;
+}
+
+.aside-serving .serving-description {
+  color: var(--orange);
+}
+
+.aside-time {
+  display: flex;
+  justify-content: space-around;
+}
+
+.serving-title {
+  color: var(--gray4);
+  font-size: 8px;
+  font-weight: bold;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+
+.serving-title:last-child {
+  border: 1px solid red;
+}
+
+.serving-description {
+  color: var(--gray1);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12.19px;
 }
