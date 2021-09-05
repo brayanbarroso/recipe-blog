@@ -61,17 +61,34 @@ img {
 }
 
 /* Aside */
+.icon {
+  position: relative;
+}
+
+.material-icons-outlined {
+  font-family: "Material Icons";
+  display: inline;
+  position: absolute;
+  left: -20px;
+}
+
 .aside-content span {
   display: block;
 }
 
-.aside-serving .serving-description {
+.aside-serving {
+  margin: 0 0 20.95px 32px;
+}
+
+.aside-serving .serving-description,
+.aside-serving .material-icons-outlined {
   color: var(--orange);
 }
 
 .aside-time {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 30.25px;
 }
 
 .serving-title {
@@ -91,4 +108,35 @@ img {
   font-size: 10px;
   font-weight: 500;
   line-height: 12.19px;
+}
+
+/* --------main------ */
+.section-ingredient h2 {
+  color: var(--gray1);
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 12px;
+  margin-bottom: 13px;
+}
+
+.title-recipe {
+}
+
+.title-recipe h3 {
+  color: var(--gray1);
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 21.33px;
+}
+
+.square {
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: block;
+  height: 21px;
+  width: 21px;
 }
