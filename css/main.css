@@ -190,3 +190,18 @@ img {
   position: absolute;
   left: 12px;
 }
+
+/* ---------link-reference---------- */
+.link-reference {
+  margin: 26px 0 129px 12px;
+}
+
+.link-reference p,
+.link-reference a {
+  color: var(--gray4);
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+}
