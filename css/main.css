@@ -65,7 +65,7 @@ img {
   position: relative;
 }
 
-.material-icons-outlined {
+.icon .material-icons-outlined {
   font-family: "Material Icons";
   display: inline;
   position: absolute;
@@ -130,6 +130,27 @@ img {
   font-style: italic;
   font-weight: 400;
   line-height: 21.33px;
+  margin: 13px 0 24px 13px;
+}
+
+.description-recipe {
+  position: relative;
+}
+
+.description-recipe p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 12px 14px 43px;
+}
+
+.black {
+  font-weight: bold;
+}
+
+.cursive {
+  font-style: italic;
+  font-weight: 500;
 }
 
 .square {
@@ -138,5 +159,7 @@ img {
   border-radius: 4px;
   display: block;
   height: 21px;
+  left: 13px;
+  position: absolute;
   width: 21px;
 }
