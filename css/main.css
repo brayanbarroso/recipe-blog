@@ -205,3 +205,26 @@ img {
   line-height: 18px;
   text-decoration: none;
 }
+
+/* ------------ footer --------------- */
+footer {
+  margin-bottom: 24px;
+}
+
+.attribution {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #828282;
+  text-decoration: none;
+}
+
+.attribution .author {
+  font-weight: bold;
+  text-decoration: underline;
+}
