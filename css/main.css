@@ -20,11 +20,11 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .wrapper {
-  width: 352px;
+  width: 95%;
 }
 
 .header-content h1 {
@@ -57,7 +57,7 @@ img {
 }
 
 .header-content img {
-  margin: 24px 0 24px 11px;
+  margin: 24px 12px 24px 11px;
 }
 
 /* Aside */
