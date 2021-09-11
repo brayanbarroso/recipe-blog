@@ -204,6 +204,10 @@ img {
   text-decoration: none;
 }
 
+.link-reference a:hover {
+  color: var(--gray2);
+}
+
 /* ------------ footer --------------- */
 footer {
   margin-bottom: 24px;
@@ -222,6 +226,10 @@ footer {
   text-decoration: none;
 }
 
+.attribution a:hover {
+  color: var(--black);
+}
+
 .attribution .author {
   font-weight: bold;
   text-decoration: underline;
@@ -229,6 +237,10 @@ footer {
 
 /* -----Desktop--------------- */
 @media only screen and (min-width: 865px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .wrapper {
     margin: auto;
     margin-bottom: 48px;
@@ -288,6 +300,10 @@ footer {
     text-align: center;
   }
 
+  .aside-time div:last-child {
+    margin-bottom: 50px;
+  }
+
   .serving-title {
     line-height: 12.19px;
   }
@@ -299,10 +315,44 @@ footer {
 
   /* --------main------ */
   .title-recipe {
-    width: 571px;
+    width: 600px;
   }
 
   .instruction {
-    width: 571px;
+    width: 600px;
+  }
+
+  /*----------- section-ingredient ----------- */
+  .section-ingredient h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 31.99px;
+    margin-bottom: 32px;
+  }
+
+  .title-recipe h3 {
+    font-size: 18px;
+    line-height: 23.99px;
+    margin-bottom: 31px;
+  }
+
+  .description-recipe p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  /* ---------link-reference---------- */
+  .link-reference {
+    margin: auto;
+    margin-bottom: 93px;
+    margin-top: 57px;
+    width: 969px;
+  }
+
+  .link-reference p,
+  .link-reference a {
+    display: inline;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
